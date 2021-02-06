@@ -6,7 +6,6 @@ import org.springframework.stereotype.Component;
 @Component
 public class MusicPlayer{
     private ClassicalMusic music;
-
     //IoC
     @Autowired
     public MusicPlayer(ClassicalMusic music) {
